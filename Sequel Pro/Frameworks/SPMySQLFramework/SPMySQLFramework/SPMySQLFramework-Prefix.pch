@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SPMySQLFramework' target in the 'SPMySQLFramework' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

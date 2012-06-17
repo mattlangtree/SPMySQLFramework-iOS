@@ -1,0 +1,1 @@
+Experimental iOS project for getting MySQL and SPMySQLFramework (as used in Sequel Pro) compiling. N.B - SPMySQLFramework isn't currently compiling on iOS.

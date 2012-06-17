@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9589BBF158DB6A400467F7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9589BBE158DB6A400467F7C /* UIKit.framework */; };
+		C9589BC1158DB6A400467F7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9589BC0158DB6A400467F7C /* Foundation.framework */; };
+		C9589BC3158DB6A400467F7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9589BC2158DB6A400467F7C /* CoreGraphics.framework */; };
+		C9589BC9158DB6A400467F7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9589BC7158DB6A400467F7C /* InfoPlist.strings */; };
+		C9589BCB158DB6A400467F7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9589BCA158DB6A400467F7C /* main.m */; };
+		C9589BCF158DB6A400467F7C /* NTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9589BCE158DB6A400467F7C /* NTAppDelegate.m */; };
+		C9589BD2158DB6A400467F7C /* NTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9589BD1158DB6A400467F7C /* NTMasterViewController.m */; };
+		C9589BD5158DB6A400467F7C /* NTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9589BD4158DB6A400467F7C /* NTDetailViewController.m */; };
+		C9589BD8158DB6A400467F7C /* NTMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9589BD6158DB6A400467F7C /* NTMasterViewController.xib */; };
+		C9589BDB158DB6A400467F7C /* NTDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9589BD9158DB6A400467F7C /* NTDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9589BBA158DB6A400467F7C /* Sequel Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sequel Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9589BBE158DB6A400467F7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9589BC0158DB6A400467F7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9589BC2158DB6A400467F7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9589BC6158DB6A400467F7C /* Sequel Pro-Info.plist */ = {isa = PBXFileReference; path = "Sequel Pro-Info.plist"; sourceTree = "<group>"; };
+		C9589BC8158DB6A400467F7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9589BCA158DB6A400467F7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9589BCC158DB6A400467F7C /* Sequel Pro-Prefix.pch */ = {isa = PBXFileReference; path = "Sequel Pro-Prefix.pch"; sourceTree = "<group>"; };
+		C9589BCD158DB6A400467F7C /* NTAppDelegate.h */ = {isa = PBXFileReference; path = NTAppDelegate.h; sourceTree = "<group>"; };
+		C9589BCE158DB6A400467F7C /* NTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTAppDelegate.m; sourceTree = "<group>"; };
+		C9589BD0158DB6A400467F7C /* NTMasterViewController.h */ = {isa = PBXFileReference; path = NTMasterViewController.h; sourceTree = "<group>"; };
+		C9589BD1158DB6A400467F7C /* NTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTMasterViewController.m; sourceTree = "<group>"; };
+		C9589BD3158DB6A400467F7C /* NTDetailViewController.h */ = {isa = PBXFileReference; path = NTDetailViewController.h; sourceTree = "<group>"; };
+		C9589BD4158DB6A400467F7C /* NTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTDetailViewController.m; sourceTree = "<group>"; };
+		C9589BD7158DB6A400467F7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NTMasterViewController.xib; sourceTree = "<group>"; };
+		C9589BDA158DB6A400467F7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NTDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9589BB7158DB6A400467F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9589BBF158DB6A400467F7C /* UIKit.framework in Frameworks */,
+				C9589BC1158DB6A400467F7C /* Foundation.framework in Frameworks */,
+				C9589BC3158DB6A400467F7C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9589BAF158DB6A400467F7C = {
+			isa = PBXGroup;
+			children = (
+				C9589BC4158DB6A400467F7C /* Sequel Pro */,
+				C9589BBD158DB6A400467F7C /* Frameworks */,
+				C9589BBB158DB6A400467F7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9589BBB158DB6A400467F7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9589BBA158DB6A400467F7C /* Sequel Pro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9589BBD158DB6A400467F7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9589BBE158DB6A400467F7C /* UIKit.framework */,
+				C9589BC0158DB6A400467F7C /* Foundation.framework */,
+				C9589BC2158DB6A400467F7C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9589BC4158DB6A400467F7C /* Sequel Pro */ = {
+			isa = PBXGroup;
+			children = (
+				C9589BCD158DB6A400467F7C /* NTAppDelegate.h */,
+				C9589BCE158DB6A400467F7C /* NTAppDelegate.m */,
+				C9589BD0158DB6A400467F7C /* NTMasterViewController.h */,
+				C9589BD1158DB6A400467F7C /* NTMasterViewController.m */,
+				C9589BD3158DB6A400467F7C /* NTDetailViewController.h */,
+				C9589BD4158DB6A400467F7C /* NTDetailViewController.m */,
+				C9589BD6158DB6A400467F7C /* NTMasterViewController.xib */,
+				C9589BD9158DB6A400467F7C /* NTDetailViewController.xib */,
+				C9589BC5158DB6A400467F7C /* Supporting Files */,
+			);
+			path = "Sequel Pro";
+			sourceTree = "<group>";
+		};
+		C9589BC5158DB6A400467F7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9589BC6158DB6A400467F7C /* Sequel Pro-Info.plist */,
+				C9589BC7158DB6A400467F7C /* InfoPlist.strings */,
+				C9589BCA158DB6A400467F7C /* main.m */,
+				C9589BCC158DB6A400467F7C /* Sequel Pro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9589BB9158DB6A400467F7C /* Sequel Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9589BDE158DB6A400467F7C /* Build configuration list for PBXNativeTarget "Sequel Pro" */;
+			buildPhases = (
+				C9589BB6158DB6A400467F7C /* Sources */,
+				C9589BB7158DB6A400467F7C /* Frameworks */,
+				C9589BB8158DB6A400467F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sequel Pro";
+			productName = "Sequel Pro";
+			productReference = C9589BBA158DB6A400467F7C /* Sequel Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9589BB1158DB6A400467F7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "North of Three";
+			};
+			buildConfigurationList = C9589BB4158DB6A400467F7C /* Build configuration list for PBXProject "Sequel Pro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9589BAF158DB6A400467F7C;
+			productRefGroup = C9589BBB158DB6A400467F7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9589BB9158DB6A400467F7C /* Sequel Pro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9589BB8158DB6A400467F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9589BC9158DB6A400467F7C /* InfoPlist.strings in Resources */,
+				C9589BD8158DB6A400467F7C /* NTMasterViewController.xib in Resources */,
+				C9589BDB158DB6A400467F7C /* NTDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9589BB6158DB6A400467F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9589BCB158DB6A400467F7C /* main.m in Sources */,
+				C9589BCF158DB6A400467F7C /* NTAppDelegate.m in Sources */,
+				C9589BD2158DB6A400467F7C /* NTMasterViewController.m in Sources */,
+				C9589BD5158DB6A400467F7C /* NTDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9589BC7158DB6A400467F7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9589BC8158DB6A400467F7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9589BD6158DB6A400467F7C /* NTMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9589BD7158DB6A400467F7C /* en */,
+			);
+			name = NTMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		C9589BD9158DB6A400467F7C /* NTDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9589BDA158DB6A400467F7C /* en */,
+			);
+			name = NTDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9589BDC158DB6A400467F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C9589BDD158DB6A400467F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9589BDF158DB6A400467F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sequel Pro/Sequel Pro-Prefix.pch";
+				INFOPLIST_FILE = "Sequel Pro/Sequel Pro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9589BE0158DB6A400467F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sequel Pro/Sequel Pro-Prefix.pch";
+				INFOPLIST_FILE = "Sequel Pro/Sequel Pro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9589BB4158DB6A400467F7C /* Build configuration list for PBXProject "Sequel Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9589BDC158DB6A400467F7C /* Debug */,
+				C9589BDD158DB6A400467F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9589BDE158DB6A400467F7C /* Build configuration list for PBXNativeTarget "Sequel Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9589BDF158DB6A400467F7C /* Debug */,
+				C9589BE0158DB6A400467F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9589BB1158DB6A400467F7C /* Project object */;
+}
